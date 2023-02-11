@@ -1,0 +1,5 @@
+*.zip
+*__MACORSX__*
+*.kra
+*.kra~
+*.deb
