@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'syne';
+    
+    src: url('assets/fonts/syne/Syne-VariableFont_wght.ttf') format('truetype');
+    
+}
+
 /*
 Theme Name: OceanWP Child Theme
 Theme URI: https://oceanwp.org/
