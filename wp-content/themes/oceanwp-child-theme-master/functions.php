@@ -32,7 +32,7 @@ function oceanwp_child_enqueue_parent_style() {
 
 function ocean_add_custom_fonts()
 	{
-		return array ('syne');
+		return array ('Syne-Extra', 'Syne-Regular');
 	}
 
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
