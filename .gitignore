@@ -3,3 +3,4 @@
 *.kra
 *.kra~
 *.deb
+wp-content/*-backups/*
