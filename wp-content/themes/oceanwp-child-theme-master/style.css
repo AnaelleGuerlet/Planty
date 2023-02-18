@@ -1,3 +1,4 @@
+/*début : polices utilisées*/
 @font-face {
     font-family: 'Syne-Extra';
     src: url('assets/fonts/syne/Syne-Extra.otf') format('truetype');
@@ -7,6 +8,98 @@
     font-family: 'Syne-Regular';
     src: url('assets/fonts/syne/Syne-Regular.otf') format('truetype');
 }
+/*fin : polices utilisées*/
+
+/*début : header*/
+.hfe-menu-item:hover
+{
+    
+    font-size: 15px;
+}
+/*fin : header*/
+
+/*début : formulaire de précommande --> page commander*/
+    /*début : partie quantité*/
+.partiebutton
+{
+    display: flex;
+    align-items: center;
+}
+
+input[type="number"]
+{
+    width: 51px;
+    height: 56px;
+    text-align: center;
+}
+
+#quantite
+{
+    border-radius: 5px 0px 0px 5px;
+}
+
+input.plus, input.moins
+{
+    padding: 1px;
+    width:31px;
+    height: 28px;
+}
+
+#plusMoins
+{
+    background-color: #DC9F96;
+}
+
+
+input.plus
+{
+    border-radius: 0px 5px 0px 0px;
+    border-bottom: 2px white solid;
+}
+
+input.moins 
+{
+    margin-top: -3px;
+    border-radius: 0px 0px 5px 0px;
+}
+
+input.buttonOK
+{
+    padding:1px;
+    width: 100px;
+    height: 56px;
+    margin-left: 11px;
+    border-radius: 5px;
+}
+    /*fin : partie quantité*/
+
+    
+    /*début : formulaire*/
+.textColor
+{
+    color: white;
+    font-size: 20px;
+}
+
+.titre
+{
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.separationDroite
+{
+    border-right: 2px white solid;
+}
+
+.separationBas
+{
+    border-bottom: 2px white solid;
+}
+    /*fin : formulaire*/
+/*début : formulaire de précommande --> page commander*/
+
 
 /*
 Theme Name: OceanWP Child Theme
