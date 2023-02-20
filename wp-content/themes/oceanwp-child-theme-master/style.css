@@ -10,7 +10,7 @@
 }
 /*fin : polices utilisées*/
 
-/*début : header*/
+/*debut : header*/
 .hfe-menu-item:hover
 {
     
@@ -19,16 +19,54 @@
 /*fin : header*/
 
 /*début : formulaire de précommande --> page commander*/
+    /*début : les vignettes au dessus des quantités*/
+.vignette
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 194px;
+    height: 128.36px;
+    color: white;
+    font-family: Syne-Extra;
+    font-size: 20px;
+    text-align: center; 
+    padding-top:25% ;
+    line-height: 1em;
+}
+
+.fraise
+{
+    background-image: url("/wp-content/uploads/2023/02/fraise.png");
+   
+}
+
+.pamplemousse
+{
+    background-image: url("/wp-content/uploads/2023/02/pamplemousse.png");
+}
+
+.framboise
+{
+    background-image: url("/wp-content/uploads/2023/02/framboise.png");
+}
+
+.citron
+{
+    background-image: url("/wp-content/uploads/2023/02/citron.png");
+}
+    /*fin : les vignettes au dessus des quantités*/
+
     /*début : partie quantité*/
 .partiebutton
 {
+    margin-top: 14px ;
     display: flex;
-    align-items: center;
+    width: 100%;
 }
 
 input[type="number"]
 {
-    width: 51px;
+    flex: 1;
     height: 56px;
     text-align: center;
 }
@@ -50,7 +88,6 @@ input.plus, input.moins
     background-color: #DC9F96;
 }
 
-
 input.plus
 {
     border-radius: 0px 5px 0px 0px;
@@ -59,21 +96,19 @@ input.plus
 
 input.moins 
 {
-    margin-top: -3px;
     border-radius: 0px 0px 5px 0px;
 }
 
 input.buttonOK
 {
     padding:1px;
-    width: 100px;
+    flex:4;
     height: 56px;
     margin-left: 11px;
     border-radius: 5px;
 }
     /*fin : partie quantité*/
 
-    
     /*début : formulaire*/
 .textColor
 {
@@ -86,20 +121,76 @@ input.buttonOK
     color: white;
     font-weight: 800;
     font-size: 30px;
+    padding: 0px;
 }
 
 .separationDroite
 {
     border-right: 2px white solid;
+    padding-right:45px ;
+    width: 50%;
+}
+
+.separationGauche
+{
+    padding-left: 45px;
+    width: 50%;
 }
 
 .separationBas
 {
     border-bottom: 2px white solid;
+    display: flex;
+}
+
+.buttonSubmit
+{
+    padding-top: 43px;
+    text-align: center;
+}
+
+.tableaux
+{
+    display: flex;
+    flex-wrap: nowrap;
 }
     /*fin : formulaire*/
-/*début : formulaire de précommande --> page commander*/
 
+    /*debut : responsive*/
+@media (max-width:768px)
+{
+    .separationBas
+    {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .separationGauche
+    {
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .separationDroite
+    {
+        border-right: 0px;
+        padding-right: 0px;
+       
+    }
+
+    .separationBasMobile
+    {
+        border-bottom: 2px white solid;
+    }
+
+    .tableaux
+    {
+        flex-wrap: wrap;
+    }
+}
+    /*fin : responsive*/
+/*fin : formulaire de précommande --> page commander*/
 
 /*
 Theme Name: OceanWP Child Theme

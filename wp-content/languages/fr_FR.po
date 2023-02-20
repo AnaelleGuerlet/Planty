@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.1.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-02-10 13:19:27+0000\n"
+"PO-Revision-Date: 2023-02-19 13:07:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4191,7 +4191,7 @@ msgid "[%s] New Site Created"
 msgstr "[%s] Nouveau site créé"
 
 #. translators: %s: PHP function name.
-#: wp-includes/class-wp-image-editor-imagick.php:778
+#: wp-includes/class-wp-image-editor-imagick.php:824
 msgid "%s failed while writing image to stream."
 msgstr "%s a échoué lors de l’écriture de l’image dans le flux."
 
@@ -4913,10 +4913,10 @@ msgstr "Le mot-clé « type » du schéma pour %1$s peut uniquement contenir l
 #: wp-includes/block-template-utils.php:677
 #: wp-includes/block-template-utils.php:799 wp-includes/rest-api.php:708
 #: wp-includes/js/dist/edit-site.js:14506
-#: wp-admin/includes/class-wp-debug-data.php:1102
-#: wp-admin/includes/class-wp-debug-data.php:1121
-#: wp-admin/includes/class-wp-debug-data.php:1216
-#: wp-admin/includes/class-wp-debug-data.php:1377
+#: wp-admin/includes/class-wp-debug-data.php:1104
+#: wp-admin/includes/class-wp-debug-data.php:1123
+#: wp-admin/includes/class-wp-debug-data.php:1218
+#: wp-admin/includes/class-wp-debug-data.php:1379
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
@@ -5891,7 +5891,7 @@ msgstr "Une erreur critique est survenue sur ce site. Veuillez consulter la boit
 msgid "There has been a critical error on this website, putting it in recovery mode. Please check the Themes and Plugins screens for more details. If you just installed or updated a theme or plugin, check the relevant page for that first."
 msgstr "Il y a eu une erreur critique sur ce site, activant ainsi le mode de récupération. Veuillez vérifier les pages des thèmes et des extensions pour plus de détails. Si vous veniez d’installer ou de mettre à jour un thème ou une extension, vérifiez la page correspondante en premier."
 
-#: wp-includes/class-wp-image-editor-imagick.php:656
+#: wp-includes/class-wp-image-editor-imagick.php:702
 msgid "The image cannot be rotated because the embedded meta data cannot be updated."
 msgstr "L’image ne peut pas être tournée car les métadonnées embarquées ne peuvent pas être mises à jour."
 
@@ -6073,7 +6073,7 @@ msgid "20"
 msgstr "20"
 
 #: wp-includes/class-wp-image-editor-gd.php:277
-#: wp-includes/class-wp-image-editor-imagick.php:488
+#: wp-includes/class-wp-image-editor-imagick.php:532
 msgid "Cannot resize the image. Both width and height are not set."
 msgstr "Impossible de redimensionner l’image. La largeur et la longueur ne sont pas définies."
 
@@ -11026,8 +11026,8 @@ msgid "Link selected."
 msgstr "Lien sélectionné."
 
 #. translators: %s: ImageMagick method name.
-#: wp-includes/class-wp-image-editor-imagick.php:850
-#: wp-includes/class-wp-image-editor-imagick.php:861
+#: wp-includes/class-wp-image-editor-imagick.php:896
+#: wp-includes/class-wp-image-editor-imagick.php:907
 msgid "%s is required to strip image meta."
 msgstr "%s est nécessaire pour supprimer les métadonnées de l’image."
 
@@ -16207,7 +16207,7 @@ msgid "A valid URL was not provided."
 msgstr "L’URL fournie n’est pas valide."
 
 #: wp-includes/class-wp-image-editor-gd.php:200
-#: wp-includes/class-wp-image-editor-imagick.php:277
+#: wp-includes/class-wp-image-editor-imagick.php:319
 msgid "Could not calculate resized image dimensions"
 msgstr "Impossible de lire la taille de l’image redimensionnée"
 
@@ -17789,7 +17789,7 @@ msgid "Empty filename"
 msgstr "Pas de nom de fichier"
 
 #. translators: %s: Directory path.
-#: wp-includes/class-wp-image-editor-imagick.php:794
+#: wp-includes/class-wp-image-editor-imagick.php:840
 #: wp-includes/functions.php:2377 wp-includes/functions.php:2912
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "Impossible de créer le dossier %s. Son dossier parent est-il accessible en écriture par le serveur ?"
@@ -18393,9 +18393,9 @@ msgstr "Sites"
 #: wp-admin/includes/class-wp-debug-data.php:108
 #: wp-admin/includes/class-wp-debug-data.php:113
 #: wp-admin/includes/class-wp-debug-data.php:118
-#: wp-admin/includes/class-wp-debug-data.php:793
-#: wp-admin/includes/class-wp-debug-data.php:802
-#: wp-admin/includes/class-wp-debug-data.php:811
+#: wp-admin/includes/class-wp-debug-data.php:795
+#: wp-admin/includes/class-wp-debug-data.php:804
+#: wp-admin/includes/class-wp-debug-data.php:813
 #: wp-admin/includes/class-wp-links-list-table.php:264
 msgid "Yes"
 msgstr "Oui"
@@ -18601,9 +18601,9 @@ msgstr "Images"
 #. translators: %s: Theme author.
 #. translators: %s: Theme author link.
 #: wp-includes/js/dist/block-directory.js:1927
-#: wp-admin/includes/class-wp-debug-data.php:942
-#: wp-admin/includes/class-wp-debug-data.php:989
-#: wp-admin/includes/class-wp-debug-data.php:1312
+#: wp-admin/includes/class-wp-debug-data.php:944
+#: wp-admin/includes/class-wp-debug-data.php:991
+#: wp-admin/includes/class-wp-debug-data.php:1314
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:537
 #: wp-admin/includes/class-wp-plugins-list-table.php:1060
 #: wp-admin/includes/class-wp-theme-install-list-table.php:370
@@ -18620,8 +18620,8 @@ msgstr "Par %s"
 #: wp-admin/includes/class-plugin-installer-skin.php:217
 #: wp-admin/includes/class-theme-installer-skin.php:240
 #: wp-admin/includes/class-wp-debug-data.php:70
-#: wp-admin/includes/class-wp-debug-data.php:1127
-#: wp-admin/includes/class-wp-debug-data.php:1222
+#: wp-admin/includes/class-wp-debug-data.php:1129
+#: wp-admin/includes/class-wp-debug-data.php:1224
 msgid "Version"
 msgstr "Version"
 
@@ -19060,7 +19060,7 @@ msgstr "Modifier l’étiquette"
 #: wp-includes/script-loader.php:1043 wp-includes/js/dist/block-editor.js:38259
 #: wp-includes/js/dist/block-editor.js:38476
 #: wp-includes/js/dist/block-library.js:19259 wp-admin/edit-tag-form.php:186
-#: wp-admin/edit-tags.php:473 wp-admin/includes/class-wp-debug-data.php:1112
+#: wp-admin/edit-tags.php:473 wp-admin/includes/class-wp-debug-data.php:1114
 #: wp-admin/includes/media.php:1148 wp-admin/includes/media.php:1276
 #: wp-admin/includes/media.php:2962 wp-admin/includes/media.php:2978
 msgid "None"
@@ -19089,8 +19089,8 @@ msgstr "Description"
 #: wp-includes/js/dist/edit-site.js:15536
 #: wp-includes/js/dist/reusable-blocks.js:356 wp-admin/edit-form-comment.php:54
 #: wp-admin/includes/class-wp-application-passwords-list-table.php:28
-#: wp-admin/includes/class-wp-debug-data.php:1118
-#: wp-admin/includes/class-wp-debug-data.php:1213
+#: wp-admin/includes/class-wp-debug-data.php:1120
+#: wp-admin/includes/class-wp-debug-data.php:1215
 #: wp-admin/includes/class-wp-users-list-table.php:369
 #: wp-admin/includes/template.php:482 wp-admin/user-edit.php:407
 #: wp-admin/includes/class-wp-ms-users-list-table.php:194
@@ -19307,9 +19307,9 @@ msgstr "Modifier"
 #: wp-admin/includes/class-wp-debug-data.php:108
 #: wp-admin/includes/class-wp-debug-data.php:113
 #: wp-admin/includes/class-wp-debug-data.php:118
-#: wp-admin/includes/class-wp-debug-data.php:793
-#: wp-admin/includes/class-wp-debug-data.php:802
-#: wp-admin/includes/class-wp-debug-data.php:811
+#: wp-admin/includes/class-wp-debug-data.php:795
+#: wp-admin/includes/class-wp-debug-data.php:804
+#: wp-admin/includes/class-wp-debug-data.php:813
 #: wp-admin/includes/class-wp-links-list-table.php:266
 msgid "No"
 msgstr "Non"
@@ -19357,8 +19357,8 @@ msgstr "URL"
 #: wp-admin/includes/class-plugin-installer-skin.php:218
 #: wp-admin/includes/class-theme-installer-skin.php:241
 #: wp-admin/includes/class-wp-comments-list-table.php:471
-#: wp-admin/includes/class-wp-debug-data.php:1132
-#: wp-admin/includes/class-wp-debug-data.php:1227
+#: wp-admin/includes/class-wp-debug-data.php:1134
+#: wp-admin/includes/class-wp-debug-data.php:1229
 #: wp-admin/includes/class-wp-media-list-table.php:323
 #: wp-admin/includes/class-wp-post-comments-list-table.php:25
 #: wp-admin/includes/class-wp-posts-list-table.php:662
