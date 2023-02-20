@@ -29,10 +29,39 @@ function oceanwp_child_enqueue_parent_style() {
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'oceanwp-style' ), $version );
 	
 }
-
+/*police du theme enfant*/
 function ocean_add_custom_fonts()
 	{
 		return array ('Syne-Extra', 'Syne-Regular');
 	}
 
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
+
+/*page admin*/ 
+add_filter( 'wp_nav_menu_items', 'add_admin', 10, 2);
+function add_admin ( $items, $args) 
+{
+    if (is_user_logged_in() && $args->menu =='planty') 
+	{
+        $items.= '<li class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a class="hfe-menu-item">Admin</a></li>';
+    }
+    elseif (!is_user_logged_in() && $args->menu == 'planty') 
+	{
+		$items.= '<li class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a class="hfe-menu-item">Vous n\'êtes pas connecté</a></li>';
+    }
+    return $items;
+}
+
+/*add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
+function add_extra_item_to_nav_menu( $items, $args ) 
+{
+    if (is_user_logged_in() && $args->menu == 303) 
+	{
+        $items .= '<li><a href="'. get_permalink( get_option('woocommerce_myaccount_page_id') ) .'">My Account</a></li>';
+    }
+    elseif (!is_user_logged_in() && $args->menu == 303) 
+	{
+        $items .= '<li><a href="' . get_permalink( wc_get_page_id( 'myaccount' ) ) . '">Sign in  /  Register</a></li>';
+    }
+    return $items;
+}*/

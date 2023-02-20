@@ -11,10 +11,9 @@
 /*fin : polices utilisées*/
 
 /*debut : header*/
-.hfe-menu-item:hover
+a.hfe-menu-item:hover
 {
-    
-    font-size: 15px;
+    font-weight: 800;
 }
 /*fin : header*/
 
