@@ -1,3 +1,0 @@
-Feb 20 2023 11:00:57
-{"Number":8192,"Message":"base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated","File":"\/home\/anaelle\/Local Sites\/planty1\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/model\/export\/class-ai1wm-export-config.php","Line":171}
-
