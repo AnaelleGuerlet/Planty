@@ -8,14 +8,38 @@
     font-family: 'Syne-Regular';
     src: url('assets/fonts/syne/Syne-Regular.otf') format('truetype');
 }
-/*fin : polices utilisées*/
+/*fin : polices utilisées
 
 /*debut : header*/
-a.hfe-menu-item:hover
+.hfe-menu-item:hover
 {
-    font-weight: 800;
+    font-weight: 700;
 }
 /*fin : header*/
+
+/*début : formulaire nous rencontrer*/
+.marge
+{
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.boutonEnvoyer
+{
+    text-align: center;
+    color: white;
+    background-color: #e0b9b4;
+    border: none;
+    width: 50%;
+    height: 55px;
+}
+
+.NousRencontrerBoutonEnvoyerCentrer
+{
+    display: flex;
+    justify-content: center;
+}
+/*fin : formulaire nous rencontrer*/
 
 /*début : formulaire de précommande --> page commander*/
     /*début : les vignettes au dessus des quantités*/
@@ -36,7 +60,6 @@ a.hfe-menu-item:hover
 .fraise
 {
     background-image: url("/wp-content/uploads/2023/02/fraise.png");
-   
 }
 
 .pamplemousse
@@ -101,7 +124,7 @@ input.moins
 input.buttonOK
 {
     padding:1px;
-    flex:4;
+    flex:2;
     height: 56px;
     margin-left: 11px;
     border-radius: 5px;
@@ -113,14 +136,16 @@ input.buttonOK
 {
     color: white;
     font-size: 20px;
+    margin-bottom: 13px;
 }
 
 .titre
 {
     color: white;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 30px;
     padding: 0px;
+    margin-bottom: 29px;
 }
 
 .separationDroite
@@ -153,6 +178,11 @@ input.buttonOK
     display: flex;
     flex-wrap: nowrap;
 }
+
+.ControleMarges
+{
+    margin-bottom: 0px;
+}
     /*fin : formulaire*/
 
     /*debut : responsive*/
@@ -162,7 +192,7 @@ input.buttonOK
     {
         flex-direction: column;
         align-items: center;
-        
+        padding-bottom: 20px;
     }
 
     .separationGauche
@@ -175,12 +205,13 @@ input.buttonOK
     {
         border-right: 0px;
         padding-right: 0px;
-       
     }
 
     .separationBasMobile
     {
         border-bottom: 2px white solid;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 
     .tableaux
