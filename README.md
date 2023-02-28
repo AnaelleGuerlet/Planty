@@ -1,22 +1,13 @@
 # Planty
-Projet WordPress
-
-## Pour commencer
-
-
+C'est un Projet WordPress dans le cadre d'une formation de développpeur WordPress. Il sert à mettre en application les connaissances apprises en HTML, CSS et PHP.
 
 ### Pré-requis
-
-Ce qu'il est requis pour commencer avec votre projet...
-
-
+* HTML 5
+* CSS 3
+* PHP
 
 ### Installation
-
-
-
-
-
+Le projet est fait en local.
 
 ## Versions
 
