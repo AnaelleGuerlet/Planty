@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the WordPress - 6.1.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-23 13:11:21+0000\n"
+"PO-Revision-Date: 2023-03-02 12:57:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
 "Language: fr\n"
 "Project-Id-Version: WordPress - 6.1.x - Development - Administration\n"
 
@@ -42,6 +42,11 @@ msgstr "Europe/Paris"
 #, gp-priority: high
 msgid "Continue"
 msgstr "Continuer"
+
+#. translators: The localized WordPress download URL.
+#: wp-admin/about.php:648
+msgid "https://wordpress.org/download/"
+msgstr "https://wordpress.org/download/"
 
 #: wp-admin/includes/theme.php:335
 msgid "Site Editor"
@@ -12565,7 +12570,7 @@ msgstr "Donner les privilèges de super-admin à ce compte pour le réseau."
 
 #: wp-admin/user-edit.php:201
 msgid "This user has super admin privileges."
-msgstr "Ce comptes possède les privilèges de super-admin."
+msgstr "Ce compte possède les privilèges de super-admin."
 
 #: wp-admin/install.php:151 wp-admin/user-edit.php:201
 msgid "Important:"
