@@ -231,8 +231,9 @@ input.buttonOK
 {
     .separationBas
     {
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
         padding-bottom: 20px;
     }
 
@@ -255,6 +256,7 @@ input.buttonOK
         padding-bottom: 20px;
     }
 
+   
     .tableaux
     {
         flex-wrap: wrap;
