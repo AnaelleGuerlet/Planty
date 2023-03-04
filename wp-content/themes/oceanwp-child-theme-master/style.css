@@ -11,24 +11,53 @@
 /*fin : polices utilisées
 
 /*debut : header*/
-.hfe-menu-item:hover
+.effetSurvol:hover
 {
     font-weight: 700;
+}
+
+.ordre:nth-child(1)
+{
+    order : 1 ;
+}
+
+.ordre:nth-child(2)
+{
+    order: 3;
+}
+
+.ordre:nth-child(3)
+{
+    order: 2 ;
+}
+
+.couleur>a
+{
+    background-color: #DC9F96;
+   color: white;
+}
+
+.ordre>a
+{
+    padding: 30px 60px 30px 60px;
+}
+
+.couleur>a:hover
+{
+    color: white;
 }
 /*fin : header*/
 
 /*début : formulaire nous rencontrer*/
 .marge
 {
-    margin-top: 22px;
-    margin-bottom: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .boutonEnvoyer
 {
     text-align: center;
-    color: white;
-    background-color: #e0b9b4;
     border: none;
     width: 50%;
     height: 55px;
@@ -38,6 +67,11 @@
 {
     display: flex;
     justify-content: center;
+}
+
+.NousRencontrerBoutonEnvoyerCentrer > input[type=submit]
+{
+    text-transform: capitalize;
 }
 /*fin : formulaire nous rencontrer*/
 
@@ -53,7 +87,9 @@
     font-family: Syne-Extra;
     font-size: 20px;
     text-align: center; 
-    padding-top:25% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     line-height: 1em;
 }
 
@@ -93,21 +129,23 @@ input[type="number"]
     text-align: center;
 }
 
-#quantite
+.partiebutton>input:not([type="button"])
 {
     border-radius: 5px 0px 0px 5px;
 }
 
-input.plus, input.moins
+.plusMoins
 {
-    padding: 1px;
-    width:31px;
-    height: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 1;
 }
 
-#plusMoins
+input.plus, input.moins
 {
-    background-color: #DC9F96;
+    width:31px;
+    padding: 0px;
+    flex: 1;
 }
 
 input.plus

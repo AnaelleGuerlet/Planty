@@ -54,11 +54,12 @@ function add_admin ( $items, $args)
 {
     if (is_user_logged_in() && $args->menu =='planty') 
 	{
-        $items.= '<li class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="http://planty1.local" class="hfe-menu-item">Admin</a></li>';
+		$class = 'effetSurvol ordre menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu';
+        $items.= '<li class="'.$class.'"><a href="http://planty1.local" class="hfe-menu-item">Admin</a></li>';
     }
     elseif (!is_user_logged_in() && $args->menu == 'planty') 
 	{
-		$items.= '<li class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="http://planty1.local" class="hfe-menu-item">Vous n\'êtes pas connecté</a></li>';
+	
     }
     return $items;
 }
