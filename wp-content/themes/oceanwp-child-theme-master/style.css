@@ -69,7 +69,7 @@
     justify-content: center;
 }
 
-.NousRencontrerBoutonEnvoyerCentrer > input[type=submit]
+input[type=submit], .titre 
 {
     text-transform: capitalize;
 }
@@ -173,8 +173,12 @@ input.buttonOK
 .textColor
 {
     color: white;
-    font-size: 20px;
-    margin-bottom: 13px;
+}
+
+.margeInput
+{
+    height: 71px;
+    margin-top: 13px;
 }
 
 .titre
@@ -182,8 +186,7 @@ input.buttonOK
     color: white;
     font-weight: 700;
     font-size: 30px;
-    padding: 0px;
-    margin-bottom: 29px;
+    padding: 0px 0px 29px 0px;
 }
 
 .separationDroite
